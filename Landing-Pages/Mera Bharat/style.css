@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    font-family: 'Special Elite', cursive;
+}
+
+.container
+{
+    height:100vh;
+    width:100%;
+    background:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 125px;
+    background:linear-gradient(rgba(0,0,0,0.18),rgba(0,0,0,0.18));
+    display: flex;
+    align-items: center;
+}
+
+.logo
+{
+    margin: 30px 0;
+    margin-left: 90px;
+    color: #ffffff;
+}
+
+.logo h1
+{
+    font-size: 28px;
+   background:linear-gradient(to right,orange,rgb(102, 190, 228),green);
+}
+
+.menu
+{
+    width: 25px;
+    cursor: pointer;
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 70px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li a:hover
+{
+    color: #009086;
+}
+
+ul li.active a
+{
+    color: #009086;
+}
+
+.rows
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 220px;
+    
+}
+
+.rows .head1
+{
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 100;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+.rows h1
+{
+    margin-top: 10px;
+    font-size: 44px;
+    font-weight: 1000;
+    color: #fff;
+    text-shadow: 2px 1px 5px #000000;
+}
+
+.rows h1 span
+{
+    color: #000000;
+    text-shadow: 1px 1px 2px #000;
+    font-size: 52px;
+}
+
+.rows .head2
+{
+    margin-top: 9px;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 80;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.rows button
+{
+    margin-top: 18px;
+    padding: 8px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.rows .b2
+{
+    color: #fff;
+    background-color: #009086;
+}
+
+
+

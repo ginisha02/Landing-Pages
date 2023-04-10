@@ -1,0 +1,81 @@
+body{
+    font-family: Helvetica;
+    background: #eee;
+}
+
+.wrapper{
+    width:900px;
+    margin: 5% auto;
+}
+
+.singleprice{
+    width:33%;
+    float: left;
+    margin-top: 2%;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: 0.9s;
+    background: #262626;
+}
+
+.price{
+    width: 120px;
+    height:120px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #da4357;
+    margin: 5% auto 0 auto;
+}
+
+.deals{
+    margin-top: 10%;
+}
+
+.singleprice h1{
+    line-height: 3;
+    color:#fff;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.price h2{
+    font-size: 38px;
+    color: #fff;
+}
+
+.deals h4{
+    line-height: 1;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    font-size: 14px;
+}
+
+.singleprice:hover{
+    background: #da4357;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,1);
+    transform: scale(1.1);
+    z-index: 1;
+    border-radius: 25px;
+}
+
+.singleprice:hover .price{
+    border-color: #fff;
+}
+
+.singleprice a{
+    background: #da4357;
+    color: #fff;
+    text-decoration: none;
+    padding:10px 60px;
+    display: inline-block;
+    margin:10% auto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.singleprice:hover a{
+    background: #262626;
+    color:#fff;
+}
